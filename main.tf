@@ -1,5 +1,5 @@
 resource "null_resource" "foo" {
   provisioner "local-exec" {
-    command = "echo ${self.private_ip} > file.txt"
+    command = "echo HELLO WORLD > file.txt"
   }
 }
